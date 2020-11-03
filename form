@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Form 2</title>
+  <style>
+    #button:focus
+    {
+      border: 7px teal;
+      color: #c45238;
+    }
+    #button:active
+    {
+      border: 5px cadetblue;
+      color: blueviolet;
+    }
+    #text:hover
+    {
+      border: 3px darkgreen;
+      color: azure;
+      background: black;
+    }
+  </style>
+</head>
+<body>
+<form action="handler.php">
+  <input id="text" type="text" placeholder="Enter text"/>
+  <input id="button" type="button" value="Click me"/>
+</form>
+</body>
+</html>
